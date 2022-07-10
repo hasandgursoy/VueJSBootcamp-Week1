@@ -24,8 +24,9 @@
         <!-- @mousemove bir reusability/composables yapısı mouse hareketlerinde ki tracking'i yakalıyor -->
         <!-- @mousemove içinde ki bir fonksiyona parametre gönderirken event'i de göndermek istiyorsak $event yazıyoruz. -->
         <div class="box" @mousemove="updateCoords('mouseMoooove',$event)" @click="changeTitle('Box dan Gelen')">
-            <span>{{coords.x}} , {{coords.y}}</span>
+            
         </div>
+        <span>{{coords.x}} , {{coords.y}}</span>
 
     </div>
     <script src="app.js"></script>
